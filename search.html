@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching</title>
+</head>
+
+<body>
+    <h1>SEARCH WEBSITES</h1>
+    <form action="https://www.google.com.br/search">
+        <label for="google">Google</label>
+        <input type="text" name='q' id='google'>
+        <button>Search on Google</button>
+    </form>
+    <form action="https://www.reddit.com/search">
+        <label for="reddit">Reddit</label>
+        <input type="text" name='q' id='reddit'>
+        <button>Search on Reddit</button>
+    </form>
+    <form action="https://br.search.yahoo.com/search">
+        <label for="yahoo">Yahoo</label>
+        <input type="text" name='p' id='yahoo'>
+        <button>Search on Yahoo</button>
+    </form>
+
+    <h2>MORE INPUT TYPES</h2>
+    <h3>Checkboxes</h3>
+    <form action="">
+        <input type="checkbox" name='agree' id='agree'>
+        <label for="agree">I Agree to the Terms and Conditions</label>
+        <button>Submit</button>
+    </form>
+    <h3>Radio Buttons</h3>
+    <form action="">
+        <label for="">Choose your color:</label>
+        <p>
+            <label for="color">Red</label>
+            <input type="radio" name='color' id='red' value='red'>
+        </p>
+        <p>
+            <label for="color">Black</label>
+            <input type="radio" name='color' id='color' value='black'>
+        </p>
+        <p>
+            <label for="color">Blue</label>
+            <input type="radio" name='color' id='color' value='blue'>
+        </p>
+        <button>Submit</button>
+    </form>
+    <h3>SELECT</h3>
+    <form action="">
+        <label for="desert">Please select your desert: </label>
+        <select name="desert" id="desert">
+            <option value="ice cream">Ice Cream</option>
+            <option value="brownie">Brownie</option>
+            <option value="petitgateau">Petit Gateau</option>
+        </select>
+        <button>Come desert!</button>
+    </form>
+    <h3>FORMS VALIDATIONS</h3>
+    <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id='username' required>
+        <label for="password">Password</label>
+        <input type="password" minlength="6" maxlength="10" required>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
